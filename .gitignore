@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.idea/
+.vscode/
+
+# Generated data
+data/*
+!data/.gitkeep
+
+# FAISS index files
+*.faiss
+*.pkl
